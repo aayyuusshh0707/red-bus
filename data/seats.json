@@ -1,0 +1,152 @@
+[
+  {
+    "id": "bus1_seat1",
+    "busId": "bus1",
+    "number": "1",
+    "isAvailable": true,
+    "isLadiesSeat": false,
+    "isWindowSeat": true,
+    "deck": "lower",
+    "price": 950
+  },
+  {
+    "id": "bus1_seat2",
+    "busId": "bus1",
+    "number": "2",
+    "isAvailable": false,
+    "isLadiesSeat": false,
+    "isWindowSeat": false,
+    "deck": "lower",
+    "price": 950
+  },
+  {
+    "id": "bus1_seat3",
+    "busId": "bus1",
+    "number": "3",
+    "isAvailable": true,
+    "isLadiesSeat": true,
+    "isWindowSeat": false,
+    "deck": "lower",
+    "price": 950
+  },
+  {
+    "id": "bus2_seat1",
+    "busId": "bus2",
+    "number": "1",
+    "isAvailable": true,
+    "isLadiesSeat": false,
+    "isWindowSeat": true,
+    "deck": "lower",
+    "price": 1200
+  },
+  {
+    "id": "bus2_seat2",
+    "busId": "bus2",
+    "number": "2",
+    "isAvailable": true,
+    "isLadiesSeat": false,
+    "isWindowSeat": false,
+    "deck": "lower",
+    "price": 1200
+  },
+  {
+    "id": "bus2_seat3",
+    "busId": "bus2",
+    "number": "3",
+    "isAvailable": true,
+    "isLadiesSeat": false,
+    "isWindowSeat": false,
+    "deck": "lower",
+    "price": 1200
+  },
+  {
+    "id": "bus3_seat1",
+    "busId": "bus3",
+    "number": "1",
+    "isAvailable": false,
+    "isLadiesSeat": false,
+    "isWindowSeat": true,
+    "deck": "lower",
+    "price": 750
+  },
+  {
+    "id": "bus3_seat2",
+    "busId": "bus3",
+    "number": "2",
+    "isAvailable": true,
+    "isLadiesSeat": false,
+    "isWindowSeat": false,
+    "deck": "lower",
+    "price": 750
+  },
+  {
+    "id": "bus3_seat3",
+    "busId": "bus3",
+    "number": "3",
+    "isAvailable": true,
+    "isLadiesSeat": false,
+    "isWindowSeat": false,
+    "deck": "lower",
+    "price": 750
+  },
+  {
+    "id": "bus4_seat1",
+    "busId": "bus4",
+    "number": "1",
+    "isAvailable": true,
+    "isLadiesSeat": false,
+    "isWindowSeat": true,
+    "deck": "lower",
+    "price": 550
+  },
+  {
+    "id": "bus4_seat2",
+    "busId": "bus4",
+    "number": "2",
+    "isAvailable": false,
+    "isLadiesSeat": false,
+    "isWindowSeat": false,
+    "deck": "lower",
+    "price": 550
+  },
+  {
+    "id": "bus4_seat3",
+    "busId": "bus4",
+    "number": "3",
+    "isAvailable": true,
+    "isLadiesSeat": false,
+    "isWindowSeat": false,
+    "deck": "lower",
+    "price": 550
+  },
+  {
+    "id": "bus5_seat1",
+    "busId": "bus5",
+    "number": "1",
+    "isAvailable": true,
+    "isLadiesSeat": false,
+    "isWindowSeat": true,
+    "deck": "lower",
+    "price": 650
+  },
+  {
+    "id": "bus5_seat2",
+    "busId": "bus5",
+    "number": "2",
+    "isAvailable": true,
+    "isLadiesSeat": false,
+    "isWindowSeat": false,
+    "deck": "lower",
+    "price": 650
+  },
+  {
+    "id": "bus5_seat3",
+    "busId": "bus5",
+    "number": "3",
+    "isAvailable": false,
+    "isLadiesSeat": false,
+    "isWindowSeat": false,
+    "deck": "lower",
+    "price": 650
+  }
+]
