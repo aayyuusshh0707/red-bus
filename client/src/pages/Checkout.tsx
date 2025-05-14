@@ -56,7 +56,7 @@ const Checkout: React.FC = () => {
 
     try {
       // Create order
-      const response = await fetch('http://localhost:5000/api/create-order', {
+      const response = await fetch('https://red-bus-fm3g.onrender.com/api/create-order', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -85,7 +85,7 @@ const Checkout: React.FC = () => {
         handler: async (response: any) => {
           try {
             // Verify payment
-            const verifyResponse = await fetch('http://localhost:5000/api/verify-payment', {
+            const verifyResponse = await fetch('https://red-bus-fm3g.onrender.com/api/verify-payment', {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json',
