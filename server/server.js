@@ -13,7 +13,15 @@ dotenv.config();
 const app = express();
 
 // Middleware
-app.use(cors(["https://red-bus-silk.vercel.app,https://localhost:5173"]));
+const allowedOrigins = [
+  "https://red-bus-silk.vercel.app",
+  "http://localhost:5173"
+];
+
+app.use(cors({
+  origin: allowedOrigins,
+  credentials: true
+}));
 app.use(express.json());
 
 // MongoDB connection
